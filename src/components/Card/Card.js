@@ -1,5 +1,13 @@
 import React from 'react'
 
-const List = () => <h1>Card</h1>
+const Card = ({song}) => {
+    return(
+        <div>
+            <img src={song.ImageCover} alt={song.SongName}/>
+            <h4>{song.SongName} {song.ArtistName}</h4>
+            <p>{song.AlbumName} {song.Time} {song.Price}</p>
+        </div>
+    )
+}
 
-export default List
+export default Card
