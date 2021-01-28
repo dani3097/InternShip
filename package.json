@@ -4,7 +4,7 @@
   "description": "��#\u0000 \u0000I\u0000n\u0000t\u0000e\u0000r\u0000n\u0000S\u0000h\u0000i\u0000p\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode development",
+    "start": "webpack serve --mode development --open",
     "production": "webpack --mode production"
   },
   "repository": {
@@ -30,6 +30,7 @@
     "webpack-cli": "^4.4.0"
   },
   "devDependencies": {
-    "webpack-dev-server": "^3.11.2"
+    "webpack-dev-server": "^3.11.2",
+    "webpack-serve": "^3.2.0"
   }
 }
