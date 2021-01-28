@@ -19,9 +19,15 @@ class List extends React.Component{
     }
 
     render(){
-        return this.state.data.map(song =>{
-            return <Card song={song}/>
-        })
+        return (
+            <div className="row">
+                {
+                    this.state.data.map(song =>{
+                        return <Card song={song}/>
+                    })
+                }
+            </div>
+        )
 
     }
 }
