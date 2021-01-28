@@ -1,0 +1,47 @@
+[
+    {
+      "id": "1",
+      "SongName": "Sparks",
+      "ArtistName": "Coldplay",
+      "AlbumName": "Parachutes",
+      "ImageCover": "media/Parachutes.jpg",
+      "Time": "255448",
+      "Price": 1.88
+    },
+    {
+      "id": "2",
+      "SongName": "Hypnotised",
+      "ArtistName": "Coldplay",
+      "AlbumName": "Kaleidoscope",
+      "ImageCover": "media/Kaleidoscope.jpg",
+      "Time": "255448",
+      "Price": 1.85
+    },
+    {
+      "id": "3",
+      "SongName": "Birds",
+      "ArtistName": "Coldplay",
+      "AlbumName": "A head full of dreams",
+      "ImageCover": "media/A_Head.jpg",
+      "Time": "255448",
+      "Price": 1.86
+    },
+    {
+      "id": "4",
+      "SongName": "Sunrise",
+      "ArtistName": "Coldplay",
+      "AlbumName": "Everyday life",
+      "ImageCover": "media/Everyday_life.jpg",
+      "Time": "255448",
+      "Price": 1.89
+    },
+    {
+      "id": "5",
+      "SongName": "Magic",
+      "ArtistName": "Coldplay",
+      "AlbumName": "Ghost stories",
+      "ImageCover": "media/Ghost_Stories.jpg",
+      "Time": "255448",
+      "Price": 1.87
+    }
+  ]
